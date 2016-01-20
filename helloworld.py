@@ -1,10 +1,24 @@
-# replace the contents of this comment with your full name
+#John Swain
+#1/19/16
+#Mini Project #1
 
-# write a program that:
-# 1. greets the user in English
-# 2. asks the user to choose from 1 of 3 spoken languages (pick your favorite languages!) 
-# 3. displays the greeting in the chosen language
-# 4. exits
+def main():
+    
+    print("Hello World")
 
-# make sure that your code contains comments explaining your logic!
+    userinput = int(input("Chose which language you want me to speak in!\n 1. Swedish\n 2. Japanese\n 3. Spanish\n"))
+
+    if userinput == 1:
+        print("Hej världen")
+
+    if userinput == 2:
+        print("こんにちは世界")
+
+    if userinput == 3:
+        print("Hola Mundo")
+
+    if userinput == 4:
+        print("Nosy little bugger ain't cha")
+main()
+
 
